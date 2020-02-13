@@ -22,7 +22,7 @@ public class LoginAction extends Action {
                 || !loginForm.getPassword().equals("password")) {
             return mapping.findForward("failure");
         } else
-            return mapping.findForward("success login");
+            return mapping.findForward("successfully login");
     }
  
 }
